@@ -71,7 +71,8 @@ header {
 .main-section h2 {
     text-align: center;
     font-size: 32px;
-    padding: 30px 0px 10px 0px;
+    padding: 30px 0px 10px ; 
+    /* top, left and right, and bottom */
 }
 
 .main-wrapper {
@@ -108,26 +109,23 @@ header {
 }
 
 
-/* pizza page styles */
+/* recipe page styles */
 
 .set-main {
     width: 80%;
     margin: auto;
     padding-top: 30px;
-    /* border: 2px solid blue; */
 }
 
 
 .intro-wrapper {
     display: flex;
     padding-top: 15px;
-    /* border: 2px solid green; */
 }
 
 
 .recipe-intro {
     width: 50%;
-    /* border: 3px dotted yellow; */
     margin-right: 100px;
 
 }
@@ -147,7 +145,6 @@ header {
 
 .ingredients {
     width: 50%;
-    /* border: 3px dashed hotpink; */
     margin-left: 100px;
     font-size: 22px;
     color: rgb(77, 77, 77);
